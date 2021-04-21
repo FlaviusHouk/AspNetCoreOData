@@ -5865,6 +5865,82 @@
             <param name="routePattern">The given route pattern.</param>
             <returns>The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/>.</returns>
         </member>
+        <member name="T:Microsoft.AspNetCore.OData.ODataJsonOptionsSetup">
+            <summary>
+            Sets up default options for <see cref="T:Microsoft.AspNetCore.Mvc.JsonOptions"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataJsonOptionsSetup.Configure(Microsoft.AspNetCore.Mvc.JsonOptions)">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:Microsoft.AspNetCore.OData.ODataMvcBuilderExtensions">
+            <summary>
+            Provides extension methods to add OData services.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcBuilderExtensions.AddOData(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcBuilderExtensions.AddOData(Microsoft.Extensions.DependencyInjection.IMvcBuilder,System.Action{Microsoft.AspNetCore.OData.ODataOptions})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <param name="setupAction"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcBuilderExtensions.AddODataJson(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.AspNetCore.OData.ODataMvcCoreBuilderExtensions">
+            <summary>
+            Provides extension methods to add OData services.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcCoreBuilderExtensions.AddOData(Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcCoreBuilderExtensions.AddOData(Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder,System.Action{Microsoft.AspNetCore.OData.ODataOptions})">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <param name="setupAction"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcCoreBuilderExtensions.AddODataJson(Microsoft.Extensions.DependencyInjection.IMvcCoreBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.AspNetCore.OData.ODataMvcOptionsSetup">
+            <summary>
+            Sets up default options for <see cref="T:Microsoft.AspNetCore.Mvc.MvcOptions"/>.
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNetCore.OData.ODataMvcOptionsSetup.Configure(Microsoft.AspNetCore.Mvc.MvcOptions)">
+            <summary>
+            Configure the default <see cref="T:Microsoft.AspNetCore.Mvc.MvcOptions"/>
+            </summary>
+            <param name="options"></param>
+        </member>
         <member name="T:Microsoft.AspNetCore.OData.ODataOptions">
             <summary>
             Contains the details of a given OData request. These properties should all be mutable.
